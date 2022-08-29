@@ -17,6 +17,8 @@ namespace PortForwardingSampleWebApp.Pages {
         public void OnPost() {
             counter.Increment();
             CurrentCount = counter.GetCount();
+            var ua = Request.Headers["User-Agent"].ToString();
+            Console.Out.WriteLine($"Count: {CurrentCount}\tRequest UA: '{ua}'");
         }
     }
 }
