@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h2>count</h2>
+    <h3>@Model.CurrentCount</h3>
+</div>
+<form method="post">
+    <button>Click to count</button>
+</form>
