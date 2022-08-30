@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortForwardingSampleWebApp", "PortForwardingSampleWebApp\PortForwardingSampleWebApp.csproj", "{4B9F6353-4D29-4172-B63C-EB1164ADED22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHookSample", "WebHookSample\WebHookSample.csproj", "{DB74B88D-3CCF-4209-8832-91C4939A5173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHookSample", "WebHookSample\WebHookSample.csproj", "{DB74B88D-3CCF-4209-8832-91C4939A5173}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

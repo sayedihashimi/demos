@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/Index"
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -10,4 +10,5 @@
 </div>
 <form method="post">
     <button>Click to count</button>
+    <button asp-page-handler="vanilla">Click 2</button>
 </form>

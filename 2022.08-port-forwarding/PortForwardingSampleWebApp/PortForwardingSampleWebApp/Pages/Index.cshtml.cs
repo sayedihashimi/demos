@@ -20,5 +20,8 @@ namespace PortForwardingSampleWebApp.Pages {
             var ua = Request.Headers["User-Agent"].ToString();
             Console.Out.WriteLine($"Count: {CurrentCount}\tRequest UA: '{ua}'");
         }
+        public void OnPostVanilla() {
+            Console.Out.WriteLine("delete");
+        }
     }
 }

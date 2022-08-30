@@ -26,7 +26,6 @@ namespace WebHookSample.Controllers {
             foreach(var key in request.Headers.Keys) {
                 sb.AppendLine($"\t{key}: {Request.Headers[key]}");
             }
-
             return sb.ToString();
         }
     }

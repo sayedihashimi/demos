@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+ul{
+    list-style-type:none;
+}
+.iceCreamCounter{
+    font-size:x-large;
+    font-weight:bold;
+    margin-right:20px;
+}
