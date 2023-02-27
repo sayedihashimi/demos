@@ -9,15 +9,7 @@ namespace WebHookSample.Controllers {
 
         [HttpPost]
         public async Task PostHookAsync([FromBody] object body) {
-            var foo = Request;
-            Console.WriteLine($"PostHook called.\nRequest.Headers:\n{GetRequestString(Request)}");
-
-            //throw new NullReferenceException();
-            //Console.WriteLine($"going to sleep forever");
-            //while (true) {
-            //    Console.Write(".");
-            //    await Task.Delay(5000);
-            //}
+            Console.WriteLine($"PostHook2 called.\nRequest.Headers:\n{GetRequestString(Request)}");
         }
 
         private string GetRequestString(HttpRequest request) {
