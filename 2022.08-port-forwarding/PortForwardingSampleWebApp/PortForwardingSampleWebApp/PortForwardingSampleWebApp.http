@@ -1,0 +1,5 @@
+﻿@PortForwardingSampleWebApp_HostAddress = https://localhost:7080
+
+POST {{PortForwardingSampleWebApp_HostAddress}}/api/icecreamapi?flavor=vanilla
+
+###

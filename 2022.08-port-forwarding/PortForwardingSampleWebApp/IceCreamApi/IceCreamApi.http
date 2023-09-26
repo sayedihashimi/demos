@@ -1,0 +1,10 @@
+@IceCreamApi_HostAddress = https://localhost:7054
+
+GET {{IceCreamApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{IceCreamApi_HostAddress}}/api/icecreamapi?flavor=vanilla
+
+###
